@@ -5,7 +5,10 @@ namespace LivingThings
     public class Animal
     {
         public string Name{get; protected set;} // a property: getter can be accessed publicly, but not setter
-        public static int Count; // this will be shared across all objects
+        public static int Count // this will be shared across all objects
+        {
+            get; private set;
+        }
 
         public Animal()
         {
@@ -25,9 +28,9 @@ namespace LivingThings
         {
             System.Console.WriteLine(Name);
         }
-        public void ChangeInfo(string _newname)
+        public void ChangeInfo(string Name)
         {
-            Name = _newname;
+            this.Name = Name;
         }
     }
 }

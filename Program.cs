@@ -58,9 +58,9 @@ namespace Csharp
             Name = "";
         }
 
-        public Dog(string _name)
+        public Dog(string Name)
         {
-            Name = _name;
+            this.Name = Name;
         }
         public override void MakeSound()
         {
