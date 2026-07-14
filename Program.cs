@@ -87,25 +87,25 @@ namespace Csharp
 
     class Program
     {
-        static void Main(string[] args)
-        {
-            List<Animal> animals =
-            [
-                new Dog("Rex"),
-                new Cat("Whiskers"),
-                new ("Generic")
-            ];
-            foreach (Animal a in animals)
-            {
-                a.PrintInfo();
-                a.MakeSound();
-            }
-            System.Console.WriteLine(Animal.Count + " animals created.\n");
-            A classA = new();
-            // classA.F1();
-            // int x = classA.F2();
-            // classA.MustImplement();
-            // classA.PrintAtt();
-        }
+        // static void Main(string[] args)
+        // {
+        //     List<Animal> animals =
+        //     [
+        //         new Dog("Rex"),
+        //         new Cat("Whiskers"),
+        //         new ("Generic")
+        //     ];
+        //     foreach (Animal a in animals)
+        //     {
+        //         a.PrintInfo();
+        //         a.MakeSound();
+        //     }
+        //     System.Console.WriteLine(Animal.Count + " animals created.\n");
+        //     A classA = new();
+        //     // classA.F1();
+        //     // int x = classA.F2();
+        //     // classA.MustImplement();
+        //     // classA.PrintAtt();
+        // }
     }
 }
